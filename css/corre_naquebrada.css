@@ -92,41 +92,24 @@ a{
     text-decoration: none;
 }
 
+section{
+  background-color: #dac5b0;
+}
+
 .produto{
-  width: 200px;
-  height: 200px;
-  
+  width: 400px;
+  height: 400px;
+  float: left; 
+  padding: 13px;
+  margin-left: 38.5px;
 }
 
 .produto img{
-  border-radius: 10px;
-  border: 0.2px solid rgba(0, 0, 0, 0.363);
+  border-radius: 5px;
+  border: 0.2px solid #dac5b0;
+  float: left;
 }
 
-.produto p{
-  font-family: style;
-  text-align: left;
-  font-size: 20px;
-  color: #fff;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);  
-  margin-bottom: 6px;
-}
-
-.produto button{
-  font-family: style;
-  text-decoration: none;
-  font-size: 15px;
-  background-color: #66666680;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-
-}
-
-.produto a:hover{
-  background-color: #fafafa80;
-  color: black;
-  transition: 0.3s;
- 
-
+footer{
+  background-image: url(../assets/background.png);
 }

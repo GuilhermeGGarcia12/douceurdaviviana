@@ -103,24 +103,45 @@ section{
 }
 
 #bolinhos{
-  margin-left: 79px;
+  width: 100%;
+  display: flex;
+}
 
+
+
+#sec_frase{
+  margin-top: 15px;
 }
 
 .produto{
   width: 250px;
   height: 300px;
   float: left; 
-  padding: 17.5px;
-  margin-left: 38.5px;
+  padding: 5px;
   align-items: center;
   padding-top: 20px;
+  margin-left: 60px;
 }
 
 .produto img{
   border-radius: 5px;
   border: 0.2px solid #dac5b0;
   float: left;
+}
+
+#textos_sec{
+  text-align: center;
+  font-family: cookie;
+  font-size: 45px;
+  color: #81490C;
+  background-color: ;
+}
+
+#textos_sect{
+  text-align: center;
+  font-family: cookie;
+  font-size: 45px;
+  color: #81490C;
 }
 
 #tabela{

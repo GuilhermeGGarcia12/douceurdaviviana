@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: cookie;
 }
 
 body{
@@ -100,6 +101,10 @@ a{
 
 section{
   background-color: #ffedda;
+  color: #81490C;
+  margin: auto;
+  text-align: center;
+  font-size: 45px;
 }
 
 #bolinhos{
@@ -126,6 +131,14 @@ section{
   border-radius: 5px;
   border: 0.2px solid #dac5b0;
   float: left;
+}
+
+#bolos_car{
+  font-size: 45px;
+  color: #81490C;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
 }
 
 #textos_sec{
@@ -275,7 +288,7 @@ footer{
 }
 
 #logo_foot{
-  width: 33%;
+  width: auto;
   padding: 20px;
 }
 
@@ -293,8 +306,9 @@ footer{
 }
 
 #info_fot{
-  width: 33%;
+  width: auto;
   display: flex;
+  
 } 
   
 #info_fot a{
@@ -313,26 +327,30 @@ footer{
 }
 
 #d_foot{
-  width: 33%;
+  width: auto;
   display: flex;
+  flex-direction: column;
   padding: 5px;
+  margin: auto;
+  gap: 20px;
 }
 
-#baixo a{
-  font-size: 25px;
+#d_foot a p{
+  font-size: 35px;
   color: #fff;
   text-decoration: none;
   flex-direction: column;
-  padding: 2px;
   margin-left: 20px;
+  align-items: center;
+  float: left;
 }
 
-#baixo .whatsapp{
+#d_foot .whatsapp{
   width: auto;
   height: 50px;
   flex-direction: column;
-  padding: 2px;
   color: #fff;
-  margin-left: 20px;
+  align-items: center;
+  float: left;
   
 }

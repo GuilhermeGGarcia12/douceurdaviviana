@@ -305,10 +305,10 @@ footer{
   
 }
 
-#info_fot p{
+#baixo p{
   font-size: 50px;
   margin: auto;
-  color: #fff;
+  color: #ffffff;
   padding: 5px;
 }
 
@@ -318,8 +318,8 @@ footer{
   padding: 5px;
 }
 
-#d_foot a{
-  font-size: 20px;
+#baixo a{
+  font-size: 25px;
   color: #fff;
   text-decoration: none;
   flex-direction: column;
@@ -327,7 +327,7 @@ footer{
   margin-left: 20px;
 }
 
-#d_foot .whatsapp{
+#baixo .whatsapp{
   width: auto;
   height: 50px;
   flex-direction: column;

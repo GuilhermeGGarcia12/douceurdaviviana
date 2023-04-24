@@ -43,6 +43,7 @@ nav{
     color: #81490C;
     font-family: cookie;
     font-size: 35px;
+    margin: auto;
 }
 
 #barra{
@@ -268,7 +269,7 @@ h1 {
   margin: auto;
   text-align: center;
   padding: 20px;
-  font-size: 35px;
+  font-size: 45px;
   font-family: cookie;
   color: #81490C;
   margin: auto;
@@ -277,7 +278,7 @@ h1 {
 #tabela p{
   padding: 20px;
   margin-top: 20px;
-
+  font-size: 45px;
 }
 
 footer{

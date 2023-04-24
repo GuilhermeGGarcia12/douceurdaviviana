@@ -1,10 +1,78 @@
 *{
-    border: 0;
     padding: 0;
-    text-decoration: none;
+    border: 0;
     margin: 0;
+    font-family: cookie;
+    font-size: 20px;
 }
 
 body{
-    background-image: url(../assets/);
+    background-image: url(../assets/bolodesfoque.png);
+    background-size: cover;
+    
 }
+
+#fundo_1{
+    background-color: #81490C;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 15px;
+    height: 750px;
+
+}
+
+p{
+    color: #ffff;
+    font-size: 25px;
+}
+
+#fundo_1 div{
+    padding: 8px;
+}
+ 
+#fundo_1 img{
+    width: 30%;
+    height: auto;
+}
+
+#direita{
+    display: flex;
+
+}
+
+#esquerda{
+    display: flex;
+    
+}
+
+
+input{
+    width: 250px ;
+    border-radius: 2.5px;
+    gap: 5;
+}
+
+select{
+    width: 250px ;
+    border-radius: 2.5px;
+    gap: 5;
+}
+
+button{
+    width: 125px;
+    height: 50px;
+    border-radius: 2.5px;
+    padding: 5px;
+    background-color: #be7424;
+    color: #ffff;
+    transition: all 1.5s;
+}
+
+button :hover{
+    background-color: #ffff;
+    color: #be7424;
+    transition: all 1.5s;
+}
+

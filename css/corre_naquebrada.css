@@ -5,6 +5,10 @@
   font-family: cookie;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #fff;
   width: 100%;

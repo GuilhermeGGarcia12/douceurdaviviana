@@ -51,7 +51,6 @@ p{
 input{
     width: 250px ;
     border-radius: 2.5px;
-    gap: 5;
 }
 
 select{
@@ -70,9 +69,10 @@ button{
     transition: all 1.5s;
 }
 
-button :hover{
+button:hover{
     background-color: #ffff;
     color: #be7424;
     transition: all 1.5s;
+    cursor: pointer;
 }
 
